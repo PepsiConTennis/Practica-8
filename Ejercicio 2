@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num;
+    int res;
+    int i = 0;
+    do
+    {
+        printf("estas en la vuela %i\n", i);
+        printf("inserte número, \n");
+        scanf("%i", & num);
+        res= res + num;
+        i++;
+        
+    }while (i<11 && res < 100);
+    printf("La suma total es: %i\n", res);
+    printf("Vuelta %i\n", i);
+
+
+    return 0;
+}
