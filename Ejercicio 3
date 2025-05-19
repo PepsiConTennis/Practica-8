@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int num, suma = 0;
+    int i = -1;
+    while(num != 0)
+    {
+        printf("Ingrese un numero: \n");
+        printf("Para finalizar la suma ingrese 0 \n");
+        scanf("%i", &num);
+        printf("\n");
+        printf("Introduciste el numero: %i\n", num);
+        i = i + 1; suma = suma + num;
+    }
+    printf("Finalizado : Se ha introducido el numero 0\n");
+    printf("La suma es: %i\n", suma);
+    printf("La cantidad de numeros introducidos es de: %i\n", i);
+    return 0;
+    
+}
