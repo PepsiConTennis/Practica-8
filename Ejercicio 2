@@ -4,7 +4,7 @@
 int main()
 {
     int num;
-    int res;
+    int res = 0;
     int i = 0;
     do
     {
@@ -14,7 +14,8 @@ int main()
         res= res + num;
         i++;
         
-    }while (i<11 && res < 100);
+    }
+    while (i<11 && res < 100);
     printf("La suma total es: %i\n", res);
     printf("Vuelta %i\n", i);
 
